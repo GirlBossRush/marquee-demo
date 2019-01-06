@@ -1,0 +1,45 @@
+html,body {
+  min-height: 100%;
+}
+
+body {
+  background:grey;
+  font-family: Asap, sans-serif;
+  padding: 0;
+}
+
+h2 {
+  position:fixed;
+  width:100%;
+  color: #b5b5b5;
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.page-section {
+  display: flex;
+  min-height: 100vh;
+}
+
+.page-section.hero-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-wrapper {
+  display: block;
+  overflow-x: hidden;
+}
+
+.marquee-entry {
+  /* display: inline; */
+  padding: 0 .5rem;
+  font-size: 1.5rem
+}
